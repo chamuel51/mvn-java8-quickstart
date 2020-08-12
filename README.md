@@ -8,6 +8,12 @@ This project was created using `Apache Maven 3` quickstart archetype [Maven Quic
 * `java -version`
 * `javac -version`
 
+## Java SE SDK 8.x or later ##
+If you don't have the Java SDK or later, go to:
+* Official Oracle releases [Java SE Development Kit 14 Downloads](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html)
+* OpenJDK alternative [OpenJDK](https://openjdk.java.net/)
+
+## Maven 3.x ##
 You can get Maven 3 from:
 * Apache direct download for your OS [Downloading Apache Maven 3.6.3](https://maven.apache.org/download.cgi)
 * Chocolatey for Windows users: [Maven
@@ -15,7 +21,7 @@ You can get Maven 3 from:
 * Brew for MacOS users [Homebrew Formulae Maven](https://formulae.brew.sh/formula/maven#default)
 
 ## IDE ##
-The project can be edited with a simple editor like [Visual Studio Code](https://code.visualstudio.com/download), with Java plugins installed, Alternatively you can use the pre-package installer with Java Plugins:  [Installer of Visual Studio Code for Java developers](https://aka.ms/vscode-java-installer-win). Remember that Eclipse and IntelliJ IDEA consume a lot of system resources.
+The project can be edited with a simple editor like [Visual Studio Code](https://code.visualstudio.com/download), with Java plugins installed, Alternatively you can use the pre-package installer with Java Plugins:  [Installer of Visual Studio Code for Java developers](https://aka.ms/vscode-java-installer-win). Remember that [Eclipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers) and [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows) consume a lot of system resources, but you can use those if you prefer.
 
 # Common Tasks #
 
@@ -25,3 +31,4 @@ The project can be edited with a simple editor like [Visual Studio Code](https:/
 4. Run the console application with arguments: `mvn exec:java -Dexec.mainClass=callsprocessor.App -Dexec.args="We came from console"`
 5. Run console app from jar file `java -cp callsprocessor-<version>.jar callsprocessor.App Some Console Args`
 6. Simulate CI build: `mvn -B verify`
+7. Process a `.csv` values file: `mvn exec:java -Dexec.mainClass=callsprocessor.App -Dexec.args="<full-path-to-file>/the_file_.csv"` (Remember works only with ***FULL PATHS***)
