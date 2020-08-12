@@ -12,7 +12,7 @@ public class CallsFileDecorator {
 
     public List<String> decorateLines() {
         List<String> lines = reader.readAllLines();
-        
+
         List<String> result = new ArrayList<String>(lines.size());
         int i = 0;
         for (String line : lines) {
