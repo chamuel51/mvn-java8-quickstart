@@ -3,7 +3,13 @@
 Java console application to be used as starting point in a Scrum workshop. If you know maven, you'll be familiar with the project structure. The only unfamiliar thing is that the main package was shortened just to `callsprocessor` to reduce typing.
 
 # Tools and Prerequisites #
-This project was created using `Apache Maven 3` quickstart archetype [Maven Quickstart Archetype](https://maven.apache.org/archetypes/maven-archetype-quickstart/). So you need to install maven 3 in order to handle common build tasks.
+This project was created using `Apache Maven 3` quickstart archetype [Maven Quickstart Archetype](https://maven.apache.org/archetypes/maven-archetype-quickstart/). So you need to install maven 3 in order to handle common build tasks. You also need Java JDK 8 or later. Before starting you need all the following three programs on our path: mvn, java, javac. Test those with:
+* `mvn --version`
+* `java -version`
+* `javac -version`
+
+## IDE ##
+The project can be edited with a simple editor like Visual Studio Code, with Java plugins installed. Remember that Eclipse and IntelliJ IDEA consume a lot of system resources.
 
 # Common Tasks #
 
