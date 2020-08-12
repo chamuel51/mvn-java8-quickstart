@@ -8,8 +8,14 @@ This project was created using `Apache Maven 3` quickstart archetype [Maven Quic
 * `java -version`
 * `javac -version`
 
+You can get Maven 3 from:
+* Apache direct download for your OS [Downloading Apache Maven 3.6.3](https://maven.apache.org/download.cgi)
+* Chocolatey for Windows users: [Maven
+3.6.3 @ Chocolatey](https://chocolatey.org/packages/maven)
+* Brew for MacOS users [Homebrew Formulae Maven](https://formulae.brew.sh/formula/maven#default)
+
 ## IDE ##
-The project can be edited with a simple editor like Visual Studio Code, with Java plugins installed. Remember that Eclipse and IntelliJ IDEA consume a lot of system resources.
+The project can be edited with a simple editor like [Visual Studio Code](https://code.visualstudio.com/download), with Java plugins installed, Alternatively you can use the pre-package installer with Java Plugins:  [Installer of Visual Studio Code for Java developers](https://aka.ms/vscode-java-installer-win). Remember that Eclipse and IntelliJ IDEA consume a lot of system resources.
 
 # Common Tasks #
 
